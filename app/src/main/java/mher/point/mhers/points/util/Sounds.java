@@ -7,6 +7,7 @@ import mher.point.mhers.points.R;
 
 
 public class Sounds {
+
 public  static Sounds  INSTANCE = null;
 
     public static Sounds getInstance() {
@@ -16,9 +17,9 @@ public  static Sounds  INSTANCE = null;
         return INSTANCE;
     }
 
-
     private MediaPlayer sound;
     private MediaPlayer positivsound;
+
     public void playsound(Context c){
         sound = MediaPlayer.create(c.getApplicationContext(), R.raw.sound);
         sound.setLooping(true);
