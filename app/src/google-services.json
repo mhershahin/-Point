@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "325965057521",
+    "firebase_url": "https://points-ed27b.firebaseio.com",
+    "project_id": "points-ed27b",
+    "storage_bucket": "points-ed27b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325965057521:android:5afca8de5f9937a3",
+        "android_client_info": {
+          "package_name": "mher.point.mhers.points"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325965057521-r72oik290gn6188abff67a8vfhg3khjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASXUWwLbj1w2pBkDUKmvR9qevZhl1v-7A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

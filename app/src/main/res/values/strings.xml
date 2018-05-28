@@ -1,0 +1,36 @@
+<resources>
+    <string name="banner_home_footer">ca-app-pub-8709901535444131/6436192604</string>
+
+    <string name="app_name">Points</string>
+    <string name="continu">continue</string>
+    <string name="newgame">New game</string>
+    <string name="score">Score :</string>
+    <string name="best">Best :</string>
+    <string name="learning">learning</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="share">Share</string>
+    <string name="menu">Menu</string>
+    <string name="facebook_app_id"> 212978655883445</string>
+    <string name="help">Help</string>
+
+    <string name="next">Next</string>
+    <string name="positiv_game_help">Collect of total 10 by clicking to the circles with differrent valus</string>
+    <string name="negativ_game_help">If the sum of the numbers inside the chosen circles is more than 10, you will not be able to use that circles for several seconds</string>
+    <string name="game_over_help">The game finishes when one of circles reaches to the highest level of the screen</string>
+    <string name="enjoy_game">Enjoy the game</string>
+
+
+    <string-array name="colors">
+        <item>#1d1d1d</item>
+        <item>#1efac8</item>
+        <item>#fffd82</item>
+        <item>#ff8d5d</item>
+        <item>#ff0008</item>
+        <item>#0afafa</item>
+        <item>#ff00c8</item>
+        <item>#a325ff</item>
+        <item>#01adff</item>
+        <item>#1100ff</item>
+    </string-array>
+
+</resources>

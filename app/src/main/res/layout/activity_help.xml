@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_game_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/help_text"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/positiv_game_help"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/next1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="next"
+            android:text="@string/next"
+            android:textSize="20sp"
+            android:background="@drawable/rippl_blue"
+            />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativ_help"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+
+    </RelativeLayout>
+</LinearLayout>
