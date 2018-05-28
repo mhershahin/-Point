@@ -8,8 +8,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 3
-        versionName "3"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionName "4"
         vectorDrawables.useSupportLibrary = true
 
     }
@@ -17,11 +16,11 @@ android {
 
         release {
             minifyEnabled false
-            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             debuggable false
             jniDebuggable false
             zipAlignEnabled true
+            shrinkResources false
         }
     }
     sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
