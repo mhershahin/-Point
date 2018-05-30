@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mher.point.mhers.points">
+    package="mher.point.flow.ten">
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -21,17 +21,17 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".Menu">
+        <activity android:name="mher.point.flow.ten.Menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".help.help0.Help0"/>
-        <activity android:name=".help.Help1" />
-        <activity android:name=".help.Help2" />
-        <activity android:name=".GamePageActivity"></activity>
+        <activity android:name="mher.point.flow.ten.help.help0.Help0"/>
+        <activity android:name="mher.point.flow.ten.help.Help1" />
+        <activity android:name="mher.point.flow.ten.help.Help2" />
+        <activity android:name="mher.point.flow.ten.GamePageActivity"></activity>
     </application>
 
 </manifest>

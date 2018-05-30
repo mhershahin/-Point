@@ -4,11 +4,11 @@ android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
     defaultConfig {
-        applicationId "mher.point.mhers.points"
+        applicationId "mher.point.flow.ten"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 3
-        versionName "4"
+        versionCode 5
+        versionName "5"
         vectorDrawables.useSupportLibrary = true
 
     }
